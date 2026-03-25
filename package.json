@@ -1,0 +1,32 @@
+{
+  "name": "user-import-nodejs",
+  "version": "1.0.0",
+  "description": "Import users from Excel, generate random password, save to database, and send password via Mailtrap email",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "excel-import",
+    "mailtrap",
+    "user-import"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.3.2",
+    "multer": "^2.1.1",
+    "nodemailer": "^8.0.4",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
